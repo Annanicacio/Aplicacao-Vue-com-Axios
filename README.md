@@ -1,9 +1,10 @@
 # Farmácia Vida – Controle de Estoque
 
-Avaliação 2 – FACET-SNP-310 – Frameworks Modernos para Desenvolvimento de Sistemas (2026.2)
+Avaliação 2 – Disciplina: Frameworks Modernos para Desenvolvimento de Sistemas (2026.2)
 
 ## Integrantes
-- Seu Nome Completo – @seu-usuario-github
+- Anna Carolina Nicacio Neves – @Annanicacio
+- João Antônio Bittencourt Montagner - @João
 
 ## Tema
 Controle de estoque de uma farmácia. A entidade **Medicamento** tem: nome, princípio ativo, fabricante, forma farmacêutica (seleção), dosagem, quantidade (número), preço (número), validade (data) e exige receita (booleano).
