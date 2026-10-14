@@ -6,7 +6,7 @@ defineEmits(['editar', 'excluir'])
 
 <template>
   <v-data-table 
-    :headers="acoes ? [...cabecalhos, { title: 'Ações', key: 'acoes', sortable: false, align: 'end' }] : cabecalhos" 
+    :headers="acoes ? [{ title: 'Ações', key: 'acoes', sortable: false, align: 'end' }, ...cabecalhos] : cabecalhos"
     :items="itens"
     items-per-page-text="Linhas por página" 
     class="border rounded-lg"
