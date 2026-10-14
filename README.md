@@ -1,4 +1,4 @@
-# Farmácia Vida – Controle de Estoque
+# Farmácia Vida (Vueda) – Controle de Estoque
 
 Avaliação 2 – Disciplina: Frameworks Modernos para Desenvolvimento de Sistemas (2026.2)
 
