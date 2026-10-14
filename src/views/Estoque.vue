@@ -30,7 +30,7 @@ function confirmarExclusao() {
 
 <template>
   <div class="d-flex align-center mb-4">
-    <h1 class="text-h5 font-weight-bold text-grey-darken-3">Gerenciar estoque</h1>
+    <h1 class="text-h5">Gerenciar estoque</h1>
     <v-spacer />
     <v-btn color="primary" prepend-icon="mdi-plus" @click="novo">Novo medicamento</v-btn>
   </div>
