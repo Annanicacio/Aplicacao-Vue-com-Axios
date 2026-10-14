@@ -20,7 +20,7 @@ const alertasCriticos = computed(() => {
   <div>
     <!-- Cabeçalho -->
     <div class="mb-6">
-      <h1 class="text-h5 font-weight-bold text-grey-darken-3">Painel de Controle</h1>
+
       <p class="text-body-2 text-medium-emphasis">Acompanhe as métricas de estoque, validades e produtos críticos da unidade.</p>
     </div>
 

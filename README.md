@@ -5,6 +5,7 @@ Avaliação 2 – Disciplina: Frameworks Modernos para Desenvolvimento de Sistem
 ## Integrantes
 - Anna Carolina Nicacio Neves – @Annanicacio
 - João Antônio Bittencourt Montagner - @joao-antonio-bittencourt-montagner
+- Guilherme Viana Priori - @guilherme.viana@unemat.br
 
 ## Tema
 Controle de estoque de uma farmácia. A entidade **Medicamento** tem: nome, princípio ativo, fabricante, forma farmacêutica (seleção), dosagem, quantidade (número), preço (número), validade (data) e exige receita (booleano).

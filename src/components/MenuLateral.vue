@@ -13,8 +13,9 @@ const itens = [
   <v-navigation-drawer 
     :model-value="modelValue" 
     @update:model-value="$emit('update:modelValue', $event)"
-    color="primary"
-  >
+    class="bg-red-darken-3">
+
+
     <v-list nav class="bg-transparent">
       <v-list-item 
         v-for="i in itens" 
