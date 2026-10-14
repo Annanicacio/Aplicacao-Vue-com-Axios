@@ -1,10 +1,18 @@
 <script setup>
-import { ref, computed } from 'vue'
+import {ref, computed} from 'vue'
 import FiltroBarra from '../components/FiltroBarra.vue'
 import TabelaMedicamentos from '../components/TabelaMedicamentos.vue'
-import { medicamentos } from '../services/storage'
+import {medicamentos} from '../services/storage'
 
-const padrao = () => ({ busca: '', forma: null, precoMin: '', precoMax: '', validadeDe: '', validadeAte: '', receita: null })
+const padrao = () => ({
+  busca: '',
+  forma: null,
+  precoMin: '',
+  precoMax: '',
+  validadeDe: '',
+  validadeAte: '',
+  receita: null
+})
 const filtros = ref(padrao())
 const preenchido = (v) => v !== '' && v !== null && v !== undefined
 
@@ -25,17 +33,22 @@ const resultado = computed(() => {
 </script>
 
 <template>
-  <h1 class="text-h5 mb-4">Consultar medicamentos</h1>
-  <FiltroBarra v-model="filtros" @limpar="filtros = padrao()" />
+  <div class="d-flex align-center mb-4">
+    <h1 class="text-h5 font-weight-bold text-grey-darken-3">Consultar medicamentos</h1>
+  </div>
+  <FiltroBarra v-model="filtros" @limpar="filtros = padrao()"/>
 
   <p class="text-body-2 mb-2" aria-live="polite">
-    {{ resultado.length }} {{ resultado.length === 1 ? 'medicamento encontrado' : 'medicamentos encontrados' }} de {{ medicamentos.length }}
+    {{ resultado.length }} {{ resultado.length === 1 ? 'medicamento encontrado' : 'medicamentos encontrados' }} de
+    {{ medicamentos.length }}
   </p>
 
   <v-card>
     <TabelaMedicamentos :itens="resultado">
       <template #vazio>
-        <div class="pa-6 text-medium-emphasis">Nenhum medicamento atende aos filtros. Ajuste os critérios ou limpe os filtros.</div>
+        <div class="pa-6 text-medium-emphasis">Nenhum medicamento atende aos filtros. Ajuste os critérios ou limpe os
+          filtros.
+        </div>
       </template>
     </TabelaMedicamentos>
   </v-card>
