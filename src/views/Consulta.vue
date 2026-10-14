@@ -25,7 +25,9 @@ const resultado = computed(() => {
 </script>
 
 <template>
-  <h1 class="text-h5 mb-4">Consultar medicamentos</h1>
+  <div class="d-flex align-center mb-4">
+    <h1 class="text-h5 font-weight-bold text-grey-darken-3">Consultar medicamentos</h1>
+  </div>
   <FiltroBarra v-model="filtros" @limpar="filtros = padrao()" />
 
   <p class="text-body-2 mb-2" aria-live="polite">
