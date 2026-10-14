@@ -118,4 +118,8 @@ const alertasCriticos = computed(() => {
       </v-col>
     </v-row>
   </div>
+
+  <div class="d-flex justify-end align-center mt-4">
+    <v-chip size="small" color="grey-darken-1" variant="outlined">Versão 1.1.0</v-chip>
+  </div>
 </template>
