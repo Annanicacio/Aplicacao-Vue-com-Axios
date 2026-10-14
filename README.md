@@ -1,14 +1,17 @@
-# Farmácia Vida – Controle de Estoque
+# Farmácia Vida (Vueda) – Controle de Estoque
 
 Avaliação 2 – Disciplina: Frameworks Modernos para Desenvolvimento de Sistemas (2026.2)
 
 ## Integrantes
 - Anna Carolina Nicacio Neves – @Annanicacio
 - João Antônio Bittencourt Montagner - @joao-antonio-bittencourt-montagner
-- Guilherme Viana Priori - @guilherme.viana@unemat.br
+- Guilherme Viana Priori - @guilhermeviana-lgtm
 
 ## Tema
-Controle de estoque de uma farmácia. A entidade **Medicamento** tem: nome, princípio ativo, fabricante, forma farmacêutica (seleção), dosagem, quantidade (número), preço (número), validade (data) e exige receita (booleano).
+Controle de estoque de uma farmácia. 
+A entidade **Medicamento** tem: 
+nome, princípio ativo, fabricante, forma farmacêutica (seleção), dosagem, quantidade (número), preço (número), validade (data) e exige receita (booleano).
+O diferencial para a farmácia utilizar esse sistema é que possui o consumo da API da openFDA, que ao consultar o nome do medicamento no formulário a API já preenche os dados, assim a farmácia evita erros de cadastro de preenchimento de materiais importantes. 
 
 ## Funcionalidades
 - CRUD de medicamentos (tabela, formulário em dialog, validação em português, confirmação de exclusão e snackbar)
